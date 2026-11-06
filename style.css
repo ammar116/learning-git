@@ -13,3 +13,9 @@ h1 {
 #dodge_challenger {
     font-weight: bold;
 }
+#title-bugatti {
+    color: rgb(40, 207, 40);
+}
+#title-bugatti, #dodge-challenger {
+    font-family: fantasy;
+}
