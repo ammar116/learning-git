@@ -1,0 +1,15 @@
+* {
+    color: rgb(20, 20, 175);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraph {
+    color: rgb(54, 71, 255);
+}
+
+#dodge_challenger {
+    font-weight: bold;
+}
