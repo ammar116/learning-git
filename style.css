@@ -6,8 +6,16 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.paragraph1, 
+.paragraph2,
 .paragraph {
-    color: rgb(54, 71, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paragraph1 {
+    color: rgb(194, 190, 190);
+}
+.paragraph2 {
+    font-weight: bold;
 }
 
 #dodge_challenger {
@@ -15,7 +23,4 @@ h1 {
 }
 #title-bugatti {
     color: rgb(40, 207, 40);
-}
-#title-bugatti, #dodge-challenger {
-    font-family: fantasy;
 }
