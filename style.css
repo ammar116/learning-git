@@ -1,5 +1,6 @@
 * {
     margin: 30%;
+    background-color: antiquewhite;
 }
 
 h1 {
@@ -30,5 +31,13 @@ p {
 }
 .title#lambo, .paragraph#lambo {
     color: rgb(143, 142, 142);
+}
+
+.a {
+    color: rgb(255, 163, 50);
+}
+
+.a:hover {
+    color: bisque;
 }
 
