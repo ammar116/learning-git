@@ -17,7 +17,7 @@ h1 {
 .paragraph2 {
     font-weight: bold;
 }
-.paragraph1.last-word {
+.paragraph1 .last-word {
     color: black;
 
 }
