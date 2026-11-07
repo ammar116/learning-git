@@ -1,26 +1,34 @@
 * {
-    color: rgb(20, 20, 175);
+    margin: 30%;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.paragraph1, 
-.paragraph2,
-.paragraph {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+img {
+    border-radius: 2px;
+    border-width: 2px;
 }
-.paragraph1 {
-    color: rgb(194, 190, 190);
-}
-.paragraph2 {
-    font-weight: bold;
-}
-.paragraph1 .last-word {
-    color: rgb(255, 147, 147);
 
+p {
+    font-size: 10px;
 }
-.paragraph#bugatti-chiron-1500 {
-    color: aqua;
+
+.title.mbenz, .paragraph#mbenz {
+    color: rgb(143, 142, 142);
 }
+
+.title.dodge, .paragraph#dodge_challenger {
+    color: rgb(230, 230, 60);
+}
+.title#bentley, .paragraph#bentley {
+    color: rgb(61, 60, 60);
+}
+.title.bugatti, .paragraph#bugatti {
+    color: rgb(0, 22, 219);
+}
+.title#lambo, .paragraph#lambo {
+    color: rgb(143, 142, 142);
+}
+
