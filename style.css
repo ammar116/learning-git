@@ -18,5 +18,9 @@ h1 {
     font-weight: bold;
 }
 .paragraph1.last-word {
-    font-style: italic;
+    color: black;
+
+}
+.paragraph#bugatti-chiron-1500 {
+    color: aqua;
 }
