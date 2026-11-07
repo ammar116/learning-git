@@ -3,8 +3,8 @@ h1 {
 }
 
 img {
-    border-radius: 2px;
-    border-width: 2px;
+    border-radius: 4px;
+    border-width: 3px;
 }
 
 p {
@@ -12,21 +12,35 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.title.mbenz, .paragraph#mbenz {
+.title.mbenz, .paragraph#mbenz ,img#mbenz{
     color: rgb(143, 142, 142);
 }
-
-.title.dodge, .paragraph#dodge_challenger {
-    color: rgb(230, 230, 60);
+img#mbenz {
+    border-style: dashed;
 }
-.title#bentley, .paragraph#bentley {
+.title.dodge, .paragraph#dodge_challenger, img#dodge {
+    color: rgb(202, 202, 0);
+}
+img#dodge {
+    border-style: double;
+}
+.title#bentley, .paragraph#bentley, img#bentley {
     color: rgb(61, 60, 60);
 }
-.title.bugatti, .paragraph#bugatti {
+img#bentley {
+    border-style: dotted;
+}
+.title.bugatti, .paragraph#bugatti, img#bugatti {
     color: rgb(0, 22, 219);
 }
-.title#lambo, .paragraph#lambo {
-    color: rgb(143, 142, 142);
+img#bugatti {
+    border-style: solid;
+}
+.title#lambo, .paragraph#lambo, img#lambo {
+    color: rgb(99, 3, 163);
+}
+img#lambo {
+    border-style: double;
 }
 
 .a {
@@ -34,6 +48,6 @@ p {
 }
 
 .a:hover {
-    color: bisque;
+    color: rgb(115, 79, 34);
 }
 
