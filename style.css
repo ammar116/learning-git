@@ -46,11 +46,11 @@ img#lambo {
     border-style: double;
 }
 
-.a {
+a {
     color: rgb(255, 163, 50);
 }
 
-.a:hover {
+a:hover {
     color: rgb(115, 79, 34);
 }
 
