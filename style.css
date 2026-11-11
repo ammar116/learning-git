@@ -24,6 +24,9 @@ img#mbenz {
 img#dodge {
     border-style: double;
 }
+.nice-car-dodge {
+    color: rgb(117, 117, 0);
+}
 .title#bentley, .paragraph#bentley, img#bentley {
     color: rgb(61, 60, 60);
 }
