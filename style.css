@@ -1,17 +1,36 @@
+* {
+    margin: 10px;
+    margin-top: 0px;
+}
+
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+#landing-h1 {
+    color: orange;
+}
+
+#landing-h1:hover {
+    color: rgb(109, 80, 25);
 }
 
 img {
     border-radius: 4px;
     border-width: 3px;
+    padding: 5px;
+
 }
 
 p {
-    font-size: 10px;
+    font-size: 19px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+img {
+    border-width: 10px;
+}
 .title.mbenz, .paragraph#mbenz ,img#mbenz{
     color: rgb(143, 142, 142);
 }
@@ -24,7 +43,7 @@ img#mbenz {
 img#dodge {
     border-style: double;
 }
-.nice-car-dodge {
+.paragraph .nice-car-dodge {
     color: rgb(117, 117, 0);
 }
 .title#bentley, .paragraph#bentley, img#bentley {
@@ -48,6 +67,8 @@ img#lambo {
 
 a {
     color: rgb(255, 163, 50);
+    padding: 10px;
+    margin-left: 0px;
 }
 
 a:hover {
