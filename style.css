@@ -57,14 +57,12 @@ img#bentley {
 }
 .flex-container {
     display: flex;
-    width: 800px;
 }
 
 .title.bugatti, .paragraph#bugatti {
     color: rgb(0, 22, 219);
     flex: 1;
     border:rgb(0, 36, 181) 5px solid;
-    width: 500px;
 }
 .flex-container img#bugatti {
     flex: 1;
