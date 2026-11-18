@@ -57,18 +57,22 @@ img#bentley {
 }
 .flex-container {
     display: flex;
+    width: 800px;
 }
-.title.bugatti, .paragraph#bugatti, img#bugatti {
+
+.title.bugatti, .paragraph#bugatti {
     color: rgb(0, 22, 219);
     flex: 1;
-    
+    border:rgb(0, 36, 181) 5px solid;
+    width: 500px;
 }
-img#bugatti {
-    border-style: solid;
+.flex-container img#bugatti {
+    flex: 1;
+    flex-shrink: 2;
+    flex-basis: 100px;
 }
 .title#lambo, .paragraph#lambo, img#lambo {
     color: rgb(99, 3, 163);
-    flex-grow: 3;
 }
 img#lambo {
     border-style: double;
