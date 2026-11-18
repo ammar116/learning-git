@@ -66,8 +66,6 @@ img#bentley {
 }
 .flex-container img#bugatti {
     flex: 1;
-    flex-shrink: 2;
-    flex-basis: 100px;
 }
 .title#lambo, .paragraph#lambo, img#lambo {
     color: rgb(99, 3, 163);
